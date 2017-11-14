@@ -5,7 +5,7 @@ export class Question {
   description: string;
   createAt?: Date;
   icon?: string;
-  answers: Answer[]
+  answers: Answer[];
 
   constructor(
     title: string,
