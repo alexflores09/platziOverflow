@@ -4,7 +4,12 @@ import { User } from './user.model';
 
 @Component({
   selector: 'app-signin-screen',
-  templateUrl: './signin-screen.component.html'
+  templateUrl: './signin-screen.component.html',
+  styles: [`
+    p{
+      text-align: center;
+    }
+  `]
 })
 
 export class SigninScreenComponent implements OnInit {
